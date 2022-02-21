@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Kimia_ISE_Projects/CA-Lab-01-FullAdder/half_adder.xst" -ofn "E:/Kimia_ISE_Projects/CA-Lab-01-FullAdder/half_adder.syr" 
