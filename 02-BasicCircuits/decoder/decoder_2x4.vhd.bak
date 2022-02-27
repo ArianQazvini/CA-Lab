@@ -1,0 +1,47 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    18:35:15 02/27/2022 
+-- Design Name: 
+-- Module Name:    decoder_2x4 - gatelevel 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity decoder_2x4 is
+	Port(
+		A : in std_logic_vector(1 downto 0);
+		Z : out std_logic_vector(3 downto 0)
+	);
+end decoder_2x4;
+
+architecture gatelevel of decoder_2x4 is
+
+begin
+	Z(0) <= (not A(0)) and (not A(1));
+	Z(1) <= A(0) and (not A(1));
+	Z(2) <= (not A(0)) and A(1);
+	Z(3) <= A(0) and A(1);
+end gatelevel;
+
