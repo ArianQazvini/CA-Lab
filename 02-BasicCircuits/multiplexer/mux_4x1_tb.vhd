@@ -20,10 +20,10 @@
 
   -- Inputs
           SIGNAL I :  std_logic_vector(3 downto 0) := "1010";
-			 SIGNAL S :  std_logic_vector(1 downto 0) := "10";
+	  SIGNAL S :  std_logic_vector(1 downto 0) := "10";
 			 
   -- Outputs 
-			 SIGNAL Z :  std_logic;
+	  SIGNAL Z :  std_logic;
           
 
   BEGIN
@@ -32,7 +32,7 @@
           uut: mux_4to1 PORT MAP(
                   I => I,
                   S => S,
-						Z => Z
+		  Z => Z
           );
 
 

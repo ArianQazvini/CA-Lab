@@ -10,58 +10,38 @@ entity mux_4to1 is
 	);
 end mux_4to1;
 
-architecture structure of mux_4to1 is
-	component and_gate is
-		Port (
-			A,B : in STD_LOGIC;
-			C: out STD_LOGIC
-		);
-	end component and_gate;
-	
-	component or_gate is
-		Port (
-			A,B : in STD_LOGIC;
-			C : out STD_LOGIC
-		);
-	end component or_gate;
-	
-	component not_gate is
-		Port (
-			A : in STD_LOGIC;
-			B : out STD_LOGIC
-		);
-	end component not_gate;
-	
+architecture structure of mux_4to1 is	
 	signal not_S0, not_S1, and_A, and_B, and_C, and_D : STD_LOGIC;
 	signal and0_S, and1_S, and2_S, and3_S : STD_LOGIC;
 	signal or0, or1 : STD_LOGIC;
 begin
-	not_instance0: not_gate port map (A => S(0), B => not_S0);
-	not_instance1: not_gate port map (A => S(1), B => not_S1);
+	not_S0 <= not S(0);
+	not_S1 <= not S(1);
 	
 	-- I(0) & !S(0) & !S(1)
-	and_instance0: and_gate port map (A => not_S0, B => not_S1, C => and0_S);
-	and_instance1: and_gate port map (A => I(0), B => and0_S, C => and_A);
+	and0_S <= not_S0 and not_S1;
+	and_A <= I(0) and and0_S;
 	
 	-- I(1) & !S(0) & S(1)
-	and_instance2: and_gate port map (A => S(0), B => not_S1, C => and1_S);
-	and_instance3: and_gate port map (A => and1_S, B => I(1), C => and_B);
+	and1_S <= S(0) and not_S1;
+	and_B <= and1_S and I(1);
 	
 	-- I(2) & S(0) & !S(1)
-	and_instance4: and_gate port map (A => not_S0, B => S(1), C => and2_S);
-	and_instance5: and_gate port map (A => I(2), B => and2_S, C => and_C);
+	and2_S <= not_S0 and S(1);
+	and_C <= I(2) and and2_S;
 	
 	-- I(3) & S(0) & S(1)
-	and_instance6: and_gate port map (A => S(0), B => S(1), C => and3_S);
-	and_instance7: and_gate port map (A => I(3), B => and3_S, C => and_D);
+	and3_S <= S(0) and S(1);
+	and_D <= I(3) and and3_S;
 	
 	-- and_A or and_B = or0
-	or_instance0: or_gate port map (A => and_A, B => and_B, C => or0);
+	or0 <= and_A or and_B;
+
 	-- and_C or and_D = or1
-	or_instance1: or_gate port map (A => and_C, B => and_D, C => or1);
+	or1 <= and_C or and_D;
+
 	-- or_0 or or_1 = Z
-	or_instance2: or_gate port map (A => or0, B => or1, C => Z);
-	
+	Z <= or0 or or1;
 
 end structure;
 
