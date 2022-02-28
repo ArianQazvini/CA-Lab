@@ -1,0 +1,194 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder
+T_opt
+!s110 1646033035
+VjCz2ozaiTIa>J24Ykhhj12
+04 13 8 work comparator_tb behavior 1
+=1-98af653e1a16-621c788b-4d-2410
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1646033194
+V[Qbz6hW]kQF@FY>V;06NY3
+04 17 8 work comparator4bit_tb behavior 1
+=1-98af653e1a16-621c792a-42-c34
+R1
+R2
+n@_opt1
+R3
+Ecomparator
+Z4 w1646031387
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z7 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator
+Z8 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator.vhd
+Z9 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator.vhd
+l0
+Z10 L32 1
+V4U4XQQ9?W9?3mD[G8h<1C1
+!s100 >OEMb0NFnncmf`1`WTzXS3
+Z11 OL;C;2020.4;71
+32
+Z12 !s110 1646033016
+!i10b 1
+Z13 !s108 1646033015.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator.vhd|
+Z15 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator.vhd|
+!i113 0
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 10 comparator 0 22 4U4XQQ9?W9?3mD[G8h<1C1
+!i122 0
+l41
+L39 16
+VcQe=41L?m0g=OfX4]nB;J3
+!s100 WNTaz@8aOP7?jcNWDAhUh1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ecomparator4bit
+R4
+R5
+R6
+!i122 2
+R7
+Z18 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/Comparator4bit.vhd
+Z19 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/Comparator4bit.vhd
+l0
+R10
+VQMzPNRK;PY42J7i41:B9@1
+!s100 nLjYZhG3QbR_>BR6hgKWF0
+R11
+32
+R12
+!i10b 1
+Z20 !s108 1646033016.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/Comparator4bit.vhd|
+Z22 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/Comparator4bit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+DEx4 work 14 comparator4bit 0 22 QMzPNRK;PY42J7i41:B9@1
+!i122 2
+l50
+L40 17
+V`jzfS8UIBNGLN26H=LndO3
+!s100 S[z6`aS9bnRkaCCBZFaZL0
+R11
+32
+R12
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R16
+R17
+Ecomparator4bit_tb
+R4
+R5
+R6
+!i122 3
+R7
+Z23 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator4bit_tb.vhd
+Z24 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator4bit_tb.vhd
+l0
+Z25 L35 1
+V60HBj7nH[miQ0ngzTg0?[1
+!s100 g1h0X7S_j0Jf`8=nNWgGc1
+R11
+32
+R12
+!i10b 1
+R20
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator4bit_tb.vhd|
+Z27 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator4bit_tb.vhd|
+!i113 0
+R16
+R17
+Abehavior
+R5
+R6
+DEx4 work 17 comparator4bit_tb 0 22 60HBj7nH[miQ0ngzTg0?[1
+!i122 3
+l63
+L38 87
+VB1lJYj^87WIDFRGR;U1n=1
+!s100 inCiG?39WBLgQ[^[?56g?3
+R11
+32
+R12
+!i10b 1
+R20
+R26
+R27
+!i113 0
+R16
+R17
+Ecomparator_tb
+R4
+R5
+R6
+!i122 1
+R7
+Z28 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator_tb.vhd
+Z29 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator_tb.vhd
+l0
+R25
+VfFnJ@ICeOI^Ij7^VMN[fT3
+!s100 YDj@Dl9Saz[1cDA:A0G;]3
+R11
+32
+R12
+!i10b 1
+R20
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator_tb.vhd|
+Z31 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator_tb.vhd|
+!i113 0
+R16
+R17
+Abehavior
+R5
+R6
+DEx4 work 13 comparator_tb 0 22 fFnJ@ICeOI^Ij7^VMN[fT3
+!i122 1
+l65
+L38 88
+Vn4ofPE=9F>AV:Fn1^KKeO3
+!s100 GhIeige1az<V;4TFk2z8k1
+R11
+32
+R12
+!i10b 1
+R20
+R30
+R31
+!i113 0
+R16
+R17

@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new
+T_opt
+!s110 1646032745
+VY_OkEKKWa;FXYSla@kmi60
+Z1 04 10 8 work encoder_tb behavior 1
+=1-98af653e1a16-621c7769-1c5-1b7c
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1646032807
+V?[5lW8To8MkB>5d78BT9Z0
+R1
+=1-98af653e1a16-621c77a7-1b1-16d8
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+Eencoder
+Z4 w1646031387
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z7 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder
+Z8 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder.vhd
+Z9 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder.vhd
+l0
+L32 1
+V=H3G5Acigd4=Whjk[OLDh2
+!s100 KNleR0IZInRIc?gTSOF[C3
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1646032731
+!i10b 1
+Z12 !s108 1646032731.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder.vhd|
+Z14 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 7 encoder 0 22 =H3G5Acigd4=Whjk[OLDh2
+!i122 0
+l41
+L39 6
+VnzjzfiFInihYg^Jm9J[Ug3
+!s100 EZz]K5^NGHeCWC=N]@eg53
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eencoder_tb
+R4
+R5
+R6
+!i122 1
+R7
+Z17 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder_tb.vhd
+Z18 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder_tb.vhd
+l0
+L35 1
+VL7zN@=:LC;<9gQQ7RbIcI1
+!s100 KF>oJdkjB0Mh_6jG@;Age2
+R10
+32
+Z19 !s110 1646032732
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder_tb.vhd|
+Z21 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/encoder/encoder_tb.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R5
+R6
+DEx4 work 10 encoder_tb 0 22 L7zN@=:LC;<9gQQ7RbIcI1
+!i122 1
+l64
+L38 66
+VK]j=]UZaaMEo<PE=iC=fB0
+!s100 fH0QUFkeQbX6^nQhTf>E`1
+R10
+32
+R19
+!i10b 1
+R12
+R20
+R21
+!i113 0
+R15
+R16

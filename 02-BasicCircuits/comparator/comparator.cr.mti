@@ -1,0 +1,33 @@
+{G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/Comparator4bit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/Comparator4bit.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Comparator4bit
+-- Compiling architecture Behavioral of Comparator4bit
+
+} {} {}} {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator4bit_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator4bit_tb.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator4bit_tb
+-- Compiling architecture behavior of comparator4bit_tb
+
+} {} {}} {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator
+-- Compiling architecture Behavioral of comparator
+
+} {} {}} {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/comparator/comparator_tb.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator_tb
+-- Compiling architecture behavior of comparator_tb
+
+} {} {}}

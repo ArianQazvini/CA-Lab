@@ -8,95 +8,105 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/multiplexer
+Z0 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/multiplexer_new
 T_opt
-!s110 1645975441
-Vl<7cg@R=^SGF<08ffPaoH1
-04 14 8 work decoder_2x4_tb behavior 1
-=1-98af653e1a16-621b9791-88-1148
+!s110 1646032657
+VXL`12DXF5UYc[>Xnojoe43
+Z1 04 14 8 work decoder_2x4_tb behavior 1
+=1-98af653e1a16-621c7711-31-2f8
 o-quiet -auto_acc_if_foreign -work work
-tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
-OL;O;2020.4;71
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1646033479
+V_^WVdf0aV]5lj^V>S3DMK3
+R1
+=1-98af653e1a16-621c7a46-3a5-cb0
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
 Edecoder_2x4
-Z0 w1645975402
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 w1645975402
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 0
-Z3 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder
-Z4 8G:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4.vhd
-Z5 FG:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4.vhd
+Z7 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new
+Z8 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4.vhd
+Z9 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4.vhd
 l0
 L4 1
 VR>[e>J1dHYgVPO@JN^0@z1
 !s100 MkJ>Y4Yl0Zkk8>Bm:Mf[a3
-Z6 OL;C;2020.4;71
+Z10 OL;C;2020.4;71
 32
-Z7 !s110 1645975418
+Z11 !s110 1646032628
 !i10b 1
-Z8 !s108 1645975418.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4.vhd|
-Z10 !s107 G:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4.vhd|
+Z12 !s108 1646032627.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4.vhd|
+Z14 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4.vhd|
 !i113 0
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
 Agatelevel
-R1
-R2
+R5
+R6
 DEx4 work 11 decoder_2x4 0 22 R>[e>J1dHYgVPO@JN^0@z1
 !i122 0
 l13
 L11 8
 VN5?f:>;_TN5TS>K^n;H?J2
 !s100 GgncG<fz>Bo8SK?;DRi=42
-R6
-32
-R7
-!i10b 1
-R8
-R9
 R10
-!i113 0
+32
 R11
+!i10b 1
 R12
+R13
+R14
+!i113 0
+R15
+R16
 Edecoder_2x4_tb
-Z13 w1645975414
-R1
-R2
+Z17 w1645975414
+R5
+R6
 !i122 1
-R3
-Z14 8G:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4_tb.vhd
-Z15 FG:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4_tb.vhd
+R7
+Z18 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4_tb.vhd
+Z19 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4_tb.vhd
 l0
 L5 1
 VYn=XJ94T1F<jnjm8:60C92
 !s100 YIR8bgVUN0k_DR;lhIIi^1
-R6
+R10
 32
-R7
-!i10b 1
-R8
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4_tb.vhd|
-Z17 !s107 G:\Windows\!important\uni\SEMESTER 4\Computer Architecture\Lab\CA-Lab\02-BasicCircuits\decoder\decoder_2x4_tb.vhd|
-!i113 0
 R11
-R12
+!i10b 1
+Z20 !s108 1646032628.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4_tb.vhd|
+Z22 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/02-BasicCircuits/decoder_new/decoder_2x4_tb.vhd|
+!i113 0
+R15
+R16
 Abehavior
-R1
-R2
+R5
+R6
 DEx4 work 14 decoder_2x4_tb 0 22 Yn=XJ94T1F<jnjm8:60C92
 !i122 1
 l26
 L8 40
 VIoL1`<W7WjgSDjFc?2ARD0
 !s100 A<>7@>0koW<MDalho?diX3
-R6
+R10
 32
-R7
-!i10b 1
-R8
-R16
-R17
-!i113 0
 R11
-R12
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R15
+R16
