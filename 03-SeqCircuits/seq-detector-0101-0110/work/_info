@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-1101-moore
+T_opt
+!s110 1646574481
+VQAL^6Lh>;0Jlj^Z=RPEl20
+04 15 8 work seq_detector_tb behavior 1
+=1-98af653e1a16-6224bb90-33b-46d4
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Eseq_detector
+Z0 w1646573044
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110
+Z4 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector.vhd
+Z5 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector.vhd
+l0
+L9 1
+V>Tcg^4kzjkH1d9Tai69552
+!s100 n[XjWN23WJB4_[hMbhSg?0
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1646574471
+!i10b 1
+Z8 !s108 1646574471.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector.vhd|
+Z10 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 12 seq_detector 0 22 >Tcg^4kzjkH1d9Tai69552
+!i122 0
+l22
+L18 77
+V^Y:1OiEZcYDCod_2cUjEc2
+!s100 S=<ifZPlCmB>@E?6K;<9o2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eseq_detector_tb
+Z13 w1646573165
+R1
+R2
+!i122 1
+R3
+Z14 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector_tb.vhd
+Z15 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector_tb.vhd
+l0
+L12 1
+V0V@XB6IVjHg_P8b9SXWHU2
+!s100 1A7ZYkShZ8Y:E>=Y56R8S2
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector_tb.vhd|
+Z17 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-0101-0110/seq_detector_tb.vhd|
+!i113 0
+R11
+R12
+Abehavior
+R1
+R2
+DEx4 work 15 seq_detector_tb 0 22 0V@XB6IVjHg_P8b9SXWHU2
+!i122 1
+l40
+L15 74
+VmiXgEJJ9>aZ`BB8XVcBh50
+!s100 khnA;0NANG=4g:F=eh?KM2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 0
+R11
+R12

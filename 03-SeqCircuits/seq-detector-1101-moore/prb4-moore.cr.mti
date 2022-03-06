@@ -1,0 +1,17 @@
+{G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-1101-moore/moore_seq_detector_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-1101-moore/moore_seq_detector_tb.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity moore_seq_detector_tb
+-- Compiling architecture behavior of moore_seq_detector_tb
+
+} {} {}} {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-1101-moore/moore_seq_detector.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/seq-detector-1101-moore/moore_seq_detector.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity moore_seq_detector
+-- Compiling architecture Behavioral of moore_seq_detector
+
+} {} {}}
