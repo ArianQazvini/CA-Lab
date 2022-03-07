@@ -1,0 +1,74 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/DFF
+Eripple_testbench
+Z0 w1646647924
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 dG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter
+Z4 8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/ripple_testbench.vhd
+Z5 FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/ripple_testbench.vhd
+l0
+L35 1
+VWJ6?@5HCS<fBSz[3Wi3_13
+!s100 k`JlY;EBlVj;Iaddh<XJn3
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1646650636
+!i10b 1
+Z8 !s108 1646650636.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/ripple_testbench.vhd|
+Z10 !s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/ripple_testbench.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+DEx4 work 16 ripple_testbench 0 22 WJ6?@5HCS<fBSz[3Wi3_13
+!i122 0
+l61
+L38 54
+Vd_82b4i8IMR4d28>BXU0D1
+!s100 MHQX0OHNPk2>=oHUX^YbF0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Eripplecounter
+R0
+R1
+R2
+!i122 1
+R3
+8G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/rippleCounter.vhd
+FG:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/rippleCounter.vhd
+l0
+L32 1
+ViZ?1JK2_NRPH`GF:_8>C21
+!s100 7nTkDhPI_N1DWUQ9I[;e30
+R6
+32
+!s110 1646650637
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/rippleCounter.vhd|
+!s107 G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/rippleCounter/rippleCounter.vhd|
+!i113 0
+R11
+R12

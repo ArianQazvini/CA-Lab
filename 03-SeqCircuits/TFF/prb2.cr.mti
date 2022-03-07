@@ -1,0 +1,17 @@
+{G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/TFF/tff.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/TFF/tff.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tff
+-- Compiling architecture Behavioral of tff
+
+} {} {}} {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/TFF/tff_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {G:/Windows/!important/uni/SEMESTER 4/Computer Architecture/Lab/CA-Lab/03-SeqCircuits/TFF/tff_tb.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tff_tb
+-- Compiling architecture behavior of tff_tb
+
+} {} {}}
