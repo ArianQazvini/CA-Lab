@@ -62,6 +62,10 @@ ARCHITECTURE behavior OF topModule_tb IS
  	--Outputs
    signal number : std_logic_vector(3 downto 0);
    signal output : std_logic_vector(6 downto 0);
+	
+	-- Clock period definitions
+   constant clk_period : time := 1 ms ;
+	constant clk_period2 : time := 1000 ms ;
  
 BEGIN
  
@@ -76,6 +80,13 @@ BEGIN
           output => output
         );
  
+	clk_process :process
+   begin
+		clk_in <= '0';
+		wait for clk_period/2;
+		clk_in <= '1';
+		wait for clk_period/2;
+   end process;
 
    -- Stimulus process
    stim_proc: process
@@ -84,6 +95,27 @@ BEGIN
       wait for 100 ns;	
 
       -- insert stimulus here 
+		para_in <= "1011";
+		load <= '1';
+		 
+		 wait for clk_period2;
+
+		load <= '0';
+		 
+		
+		 wait for clk_period2;
+		 
+		 lr <= "10";
+		 wait for clk_period2;
+		 
+		 lr <= "01";
+		 wait for clk_period2;
+		 
+		 load <= '0';
+		
+			wait for clk_period2;
+			 
+		 lr <= "11";
 
       wait;
    end process;
